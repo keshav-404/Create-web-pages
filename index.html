@@ -1,18 +1,58 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<title>SahDhaba</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css ">
+	<link href="https://fonts.googleapis.com/css2?family=Flamenco&family=Itim&display=swap" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
+	<header>
+		<nav>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+		     <div class="row clearfix">
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+			   <img src="images/logomain.png" class="logo">
+				<ul class="main-nav animate__animated animate__slideInDown">
+					<li><a href="#">FOOD DELIVERY</a></li>
+					<li><a href="#">HOW TO ORDER</a></li>
+					<li><a href="#">CHECK MORE</a></li>
+					<li><a href="#">SIGN UP</a></li>
+				</ul>
+
+				
+			</div>
+	</nav>
+
+		 <div class ="main-content-header">
+			<h1>WELCOME TO <span class="colorchange">SAH DHABA</span>.<br>
+		       DELICIOUSNESS JUMPING INTO THE MOUTH. </h1>
+		     <a href="#" class ="btn btn-full">click to order</a>
+		     <a href="#" class ="btn btn-nav">show me more</a>
+		 </div>
+
+	</header>   
+
+
+	<script type="text/javascript">
+		function animate__slideInDown(){
+			var x =document.getElementById('check-class');
+			if(x.style.display === "none")
+			{
+				x.style.display="block";
+			}
+			else
+			{
+				x.style.display === "none";
+
+			}
+
+
+		}
+	</script>
 
 </body>
-</html>
+</html>  
